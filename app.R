@@ -390,8 +390,6 @@ calculate_pitcher_metrics <- function(df, count = NULL) {
     FoulRate = round(FoulBalls / TotalPitches * 100, 1),
     BallPercentage = round(Balls / TotalPitches * 100, 1),
     BallsInPlay = sum(!is.na(PlayResult) & PlayResult != "Undefined"),
-    HardHits = sum(!is.na(PlayResult) & PlayResult %in% c("Double", "Triple", "HomeRun")),
-    HardHitRate = ifelse(BallsInPlay > 0, round(HardHits / BallsInPlay * 100, 1), 0)
   )
   
   return(metrics)
@@ -2048,8 +2046,6 @@ calculate_pitcher_metrics <- function(df, count = NULL) {
     FoulRate = round(FoulBalls / TotalPitches * 100, 1),
     BallPercentage = round(Balls / TotalPitches * 100, 1),
     BallsInPlay = sum(!is.na(PlayResult) & PlayResult != \"Undefined\"),
-    HardHits = sum(!is.na(PlayResult) & PlayResult %in% c(\"Double\", \"Triple\", \"HomeRun\")),
-    HardHitRate = ifelse(BallsInPlay > 0, round(HardHits / BallsInPlay * 100, 1), 0)
   )
   
   return(metrics)
