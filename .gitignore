@@ -1,0 +1,12 @@
+# R specific files
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# Sensitive files
+config.R
+
+# OS specific files
+.DS_Store
+Thumbs.db

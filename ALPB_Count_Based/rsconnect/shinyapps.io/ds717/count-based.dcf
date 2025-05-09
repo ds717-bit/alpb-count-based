@@ -1,0 +1,10 @@
+name: count-based
+title:
+username: ds717
+account: ds717
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14492326
+bundleId: 10094622
+url: https://ds717.shinyapps.io/count-based/
+version: 1
