@@ -8,6 +8,7 @@ A Shiny application that provides detailed analytics for Atlantic League Profess
 - Filter data by count (0-0, 1-2, 3-2, etc.)
 - Visualization of batting and pitching metrics
 - Date-based filtering for time-series analysis
+- Downloadable PDF reports with selected and general filter
 
 ## Setup
 
