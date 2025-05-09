@@ -29,7 +29,6 @@ if (file.exists("config.R")) {
   stop("Configuration file missing. Please create config.R based on config.dummy.R")
 }
 
-
 # ----------------------------------------
 # Team Colors Lookup Table
 # ----------------------------------------
